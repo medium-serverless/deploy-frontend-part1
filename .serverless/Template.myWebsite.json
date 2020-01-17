@@ -1,0 +1,6 @@
+{
+  "bucketName": "medium-serverless-tutorial",
+  "region": "eu-central-1",
+  "url": "http://medium-serverless-tutorial.s3-website-eu-central-1.amazonaws.com",
+  "domain": "https://mediumserverless.com"
+}

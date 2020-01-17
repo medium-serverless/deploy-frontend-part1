@@ -1,0 +1,16 @@
+# serverless.yml
+
+name: medium-serverless # change to your name
+stage: dev
+
+myWebsite:
+  component: "@serverless/website"
+  inputs:
+    code:
+      root: ./
+      src: ./dist # after running "npm run build" our app will be in dist folder
+      hook: npm run build
+    region: eu-central-1 # use same region as your backend from part1 tutorial!
+    bucketName: medium-serverless-tutorial
+
+    domain: www.mediumserverless.com # replace with your own domain! or remove this line and aws will generate a generic url for you.

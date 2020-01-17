@@ -1,0 +1,12 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "mediumserverless.com",
+  "subdomains": [
+    {
+      "domain": "www.mediumserverless.com",
+      "type": "awsS3Website",
+      "s3BucketName": "medium-serverless-tutorial"
+    }
+  ]
+}

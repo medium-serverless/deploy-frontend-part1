@@ -14,7 +14,10 @@ if (process.env.NODE_ENV === "production") {
       console.log("Content has been cached for offline use.");
     },
     updated() {
-      console.log("New content is available; please refresh.");
+      console.log("New content is available; Refresh...");
+      setTimeout(() => {
+        window.location.reload(true)
+      }, 1000)
     },
     offline() {
       console.log(

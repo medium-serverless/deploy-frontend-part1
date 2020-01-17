@@ -1,0 +1,6 @@
+{
+  "name": "medium-serverless-tutorial",
+  "region": "eu-central-1",
+  "accelerated": false,
+  "url": "https://medium-serverless-tutorial.s3.amazonaws.com"
+}
